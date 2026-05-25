@@ -4,7 +4,7 @@ A simple webpage that displays a greeting alongside the current date and time in
 
 ## Files
 
-### `hello_world.html`
+### `index.html`
 The page structure. Renders an "Hello, world" heading and two paragraphs — one for the date and one for the time — whose content is populated by `script.js`. Links to both `style.css` and `script.js`.
 
 ### `style.css`
@@ -18,4 +18,4 @@ Drives the live date and time display, both locked to the `Asia/Singapore` timez
 
 ## Usage
 
-Open `hello_world.html` in any modern browser. No build step or server required.
+Open `index.html` in any modern browser. No build step or server required.
