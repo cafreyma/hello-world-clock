@@ -16,6 +16,9 @@ Drives the live date and time display, both locked to the `Asia/Singapore` timez
 - **Date** — shown as a full weekday + date string (e.g. "Today is Sunday, 27 April 2026 in Singapore"). Updates once per day, scheduling itself to fire again at the next Singapore midnight.
 - **Time** — shown as a 12-hour clock with seconds (e.g. "The time is now 08:45:30 AM"). Refreshes every second, re-aligning to the wall clock on each tick so the display stays in phase with actual second boundaries. The `scheduleNextTick` function is commented inline to explain this behaviour.
 
+### `render.yaml`
+Deployment configuration for [Render](https://render.com). Defines this project as a static site service with no build step, serving files from the root of the repo. Render detects this file automatically when you connect the GitHub repo.
+
 ## Usage
 
 Open `index.html` in any modern browser. No build step or server required.
